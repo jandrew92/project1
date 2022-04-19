@@ -99,6 +99,8 @@ namespace Simulingua.Controllers
             }
         }
     }
+
+    [Route("[controller]")]
     public class StoreActionsController : ControllerBase
     {
 
@@ -132,6 +134,8 @@ namespace Simulingua.Controllers
 
 
     }
+
+    [Route("[controller]")]
     public class UserInfoController : ControllerBase
     {
         [HttpPost]

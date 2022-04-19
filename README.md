@@ -36,10 +36,31 @@ To-do list:
   Choose 'Device', '...' and 'add'
   Navigate to the SimulinguaDB.bak file, select it, and click 'OK'
   Click 'OK' then 'OK' again
-3. Modify ConnectionString.xml so that it points to your SQL server.
-4. Open the folder in Visual Studio and launch Swagger through ISS Express.
+3. Modify Simulingua/ConnectionString.xml so that it points to your SQL server.
+4. Open the Simulingua folder in Visual Studio and launch Swagger through ISS Express.
 
 ## Usage
 
-* 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+Use the following HTTP methods to alter the database:
+
+* /AdminActions/
+	add-new-language
+	add-new-language-course
+	update-language-course-prince
+	delete-language-course
+	fetch-all-user-data
+	fetch-all-user-receipts
+	
+* /StoreActions/
+    user-action-purchase-language-course
+	fetch-store-menu
+	
+* /UserInfo/
+	new-user
+	add-new-target-language
+	update-user
+	update-target-language-proficiency
+	fetch-user-info
+	fetch-user-target-languages
+	fetch-user-reciepts
+	delete-user-target-language
