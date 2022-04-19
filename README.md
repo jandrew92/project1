@@ -43,7 +43,8 @@ To-do list:
 
 Use the following HTTP methods to alter the database:
 
-* /AdminActions/
+/AdminActions/
+
 -	add-new-language
 -	add-new-language-course
 -	update-language-course-prince
@@ -51,11 +52,13 @@ Use the following HTTP methods to alter the database:
 -	fetch-all-user-data
 -	fetch-all-user-receipts
 	
-* /StoreActions/
+/StoreActions/
+
 -	user-action-purchase-language-course
 -	fetch-store-menu
 	
-* /UserInfo/
+/UserInfo/
+
 -	new-user
 -	add-new-target-language
 -	update-user
