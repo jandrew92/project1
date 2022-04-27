@@ -1,8 +1,6 @@
 # Simulinga
 
-## Project Description
-
-REST API designed for a language-learning services website. 
+RestAPI designed for a language-learning services website. 
 
 ## Technologies Used
 
