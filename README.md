@@ -1,4 +1,4 @@
-# SIMULINGUA
+# Simulinga
 
 ## Project Description
 
